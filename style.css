@@ -1,0 +1,48 @@
+body {
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.button {
+    background-color: aliceblue;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+.button:hover {
+    cursor:pointer;
+}
+
+li {
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+.play {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
